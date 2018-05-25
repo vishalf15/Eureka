@@ -25,7 +25,7 @@ Ports
 Commands
 
 	Genrate KeyStore -
-		keytool -genkeypair -alias mytestkey3 -keyalg RSA -keypass changeme3 -keystore server3.jks -storepass letmein3
+		keytool -genkeypair -alias mytestkey -keyalg RSA -keypass changeme -keystore server3.jks -storepass letmein
 
 	Dynamic reloading of properties at client side -
 		curl localhost:8080/refresh -d {} -H "Content-Type: application/json"
